@@ -11,7 +11,7 @@
 
 ## Public API methods
 
-### <a href="#login">Login</a>
+### <a id="login"></a>Login
 
 POST:
 
@@ -49,7 +49,7 @@ https://yourstrongbox.com/api/login
 }
 ```
 
-### <a href="#gen-pass">Generate password</a>
+### <a id="gen-pass"></a>Generate password
 GET:
 
 ```
@@ -82,7 +82,7 @@ https://yourstrongbox.com/api/password/generate?length=16&spec=n
 
 ## Private API methods
 
-### <a href="#gen-rsa-keys">Generate RSA keys</a>
+### <a id="gen-rsa-keys"></a>Generate RSA keys
 POST:
 
 ```
