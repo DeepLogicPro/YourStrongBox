@@ -2,9 +2,16 @@
 
 [YourStrongBox](https://yourstrongbox.com/) is a personal secure password manager.
 
+#### Public API methods
+- **[Login](#login)**
+- **[Generate password](#gen-pass)**
+
+#### Private API methods
+- **[Generate RSA keys](#gen-rsa-keys)**
+
 ## Public API methods
 
-### Login
+### <a href="#login">Login</a>
 
 POST:
 
@@ -42,7 +49,7 @@ https://yourstrongbox.com/api/login
 }
 ```
 
-### Generate password
+### <a href="#gen-pass">Generate password</a>
 GET:
 
 ```
@@ -75,7 +82,7 @@ https://yourstrongbox.com/api/password/generate?length=16&spec=n
 
 ## Private API methods
 
-### Generate RSA keys
+### <a href="#gen-rsa-keys">Generate RSA keys</a>
 POST:
 
 ```
