@@ -8,6 +8,7 @@
 
 #### Private API methods
 - **[Generate RSA keys](#gen-rsa-keys)**
+- **[Check Password](#password-check)**
 
 ## Public API methods
 
